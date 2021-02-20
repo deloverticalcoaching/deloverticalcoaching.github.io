@@ -159,52 +159,55 @@
               <label for="email">Età</label>
               <input type="email" class="form-control" id="eta" value="" required="">
             </div>
+
+
             <div class="d-block my-3">
-              <label for="email">Attrezzatura che possiedi</label>
-              <div class="custom-control custom-radio">
-                <input id="credit" name="paymentMethod" type="radio" class="custom-control-input" checked="" required="">
-                <label class="custom-control-label" for="credit">Orologio GPS</label>
+              <label>Attrezzatura che possiedi</label>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="orologio">
+                <label class="form-check-label" for="orologio">Orologio GPS</label>
               </div>
-              <div class="custom-control custom-radio">
-                <input id="debit" name="paymentMethod" type="radio" class="custom-control-input" required="">
-                <label class="custom-control-label" for="debit">Fascia cardio</label>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="fascia">
+                <label class="form-check-label" for="debit">Fascia cardio</label>
               </div>
-              <div class="custom-control custom-radio">
-                <input id="debit" name="paymentMethod" type="radio" class="custom-control-input" required="">
-                <label class="custom-control-label" for="debit">Bastoni montagna</label>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="bastoni">
+                <label class="form-check-label" for="debit">Bastoni montagna</label>
               </div>
-              <div class="custom-control custom-radio">
-                <input id="paypal" name="paymentMethod" type="radio" class="custom-control-input" required="">
-                <label class="custom-control-label" for="paypal">Tapis roulant</label>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="tapis">
+                <label class="form-check-label" for="paypal">Tapis roulant</label>
               </div>
-              <div class="custom-control custom-radio">
-                <input id="paypal" name="paymentMethod" type="radio" class="custom-control-input" required="">
-                <label class="custom-control-label" for="paypal">Rullo</label>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="rullo">
+                <label class="form-check-label" for="paypal">Rullo bici</label>
               </div>
-              <div class="custom-control custom-radio">
-                <input id="paypal" name="paymentMethod" type="radio" class="custom-control-input" required="">
-                <label class="custom-control-label" for="paypal">Bici strada</label>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="bici_strada">
+                <label class="form-check-label" for="paypal">Bici da strada</label>
               </div>
-              <div class="custom-control custom-radio">
-                <input id="paypal" name="paymentMethod" type="radio" class="custom-control-input" required="">
-                <label class="custom-control-label" for="paypal">Mountain bike</label>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="mountain_bike">
+                <label class="form-check-label" for="paypal">Mountain bike</label>
               </div>
-              <div class="custom-control custom-radio">
-                <input id="paypal" name="paymentMethod" type="radio" class="custom-control-input" required="">
-                <label class="custom-control-label" for="paypal">Pelli di foca</label>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="pelli">
+                <label class="form-check-label" for="paypal">Materiale pelli di foca</label>
               </div>
-              <div class="custom-control custom-radio">
-                <input id="paypal" name="paymentMethod" type="radio" class="custom-control-input" required="">
-                <label class="custom-control-label" for="paypal">Ciaspole</label>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="ciaspole">
+                <label class="form-check-label" for="paypal">Ciaspole</label>
               </div>
-              <div class="custom-control custom-radio">
-                <input id="paypal" name="paymentMethod" type="radio" class="custom-control-input" required="">
-                <label class="custom-control-label" for="paypal">Sci di fondo</label>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="fondo">
+                <label class="form-check-label" for="paypal">Materiale sci di fondo</label>
               </div>
             </div>
+
             <div class="mb-3">
-              <label for="email">Altre osservazioni</label>
-              <input type="email" class="form-control" id="nr" value="" required="">
+              <label for="osservazioni">Osservazioni</label>
+              <textarea class="form-control" id="osservazioni" rows="3"></textarea>
             </div>
 
             <button class="mb-4 btn btn-primary btn-lg btn-block buttonPricing" type="submit">Invia</button>
