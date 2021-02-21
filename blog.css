@@ -204,7 +204,8 @@ ul{
 
 .bg-c-lite-green {
     background: -webkit-gradient(linear, left top, right top, from(#000000), to(#53a32b));
-    background: linear-gradient(to right, #53a32b, #000000)
+    background: linear-gradient(to right, #53a32b, #000000);
+    max-width: 100%;
 }
 
 .user-profile {
@@ -220,7 +221,8 @@ ul{
 }
 
 .img-radius {
-    border-radius: 5px
+    border-radius: 60%;
+    width: 70%;
 }
 
 h6 {
@@ -271,6 +273,10 @@ h6 {
 
 .f-w-600 {
     font-weight: 600
+}
+
+.nametext{
+    font-size: 150%;
 }
 
 .m-b-20 {
