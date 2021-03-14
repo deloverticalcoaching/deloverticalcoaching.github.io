@@ -36,7 +36,7 @@
         <div class="row flex-nowrap justify-content-between align-items-center">
           <div class="col-3">
             <a href="index.html">
-              <img id="logo" src="img/logo.png">
+              <img id="logo" src="img/logo.png" alt="logo">
             </a>
           </div>
           <div class="col-3 text-center">
@@ -76,28 +76,28 @@
           <ul class="list-group mb-3">
             <li class="list-group-item d-flex justify-content-between lh-condensed">
               <div>
-                <h6 class="my-0">Product name</h6>
-                <small class="text-muted">Brief description</small>
+                <h6 class="my-0">Pacchetto piani di allenamento</h6>
+                <small class="text-muted" id="plan"></small>
               </div>
-              <span class="text-muted">$12</span>
+              <span class="text-muted" id="price"></span>
             </li>
           </ul>
 
         </div>
         <div class="col-md-8 order-md-1">
           <h4 class="mb-3">Dati personali</h4>
-          <form class="needs-validation" novalidate="">
+          <form id="myform" class="needs-validation" novalidate="">
             <div class="row">
               <div class="col-md-6 mb-3">
-                <label for="firstName">Nome</label>
-                <input type="text" class="form-control" id="firstName" placeholder="" value="" required="">
+                <label for="Nome">Nome</label>
+                <input type="text" class="form-control" id="Nome" placeholder="" value="" required>
                 <div class="invalid-feedback">
                   Inserisci un nome valido.
                 </div>
               </div>
               <div class="col-md-6 mb-3">
-                <label for="lastName">Cognome</label>
-                <input type="text" class="form-control" id="lastName" placeholder="" value="" required="">
+                <label for="Cognome">Cognome</label>
+                <input type="text" class="form-control" id="Cognome" placeholder="" value="" required="">
                 <div class="invalid-feedback">
                   Inserisci un cognome valido.
                 </div>
@@ -113,8 +113,8 @@
             </div>
 
             <div class="mb-3">
-              <label for="address">Indirizzo</label>
-              <input type="text" class="form-control" id="address" placeholder="Via Blablabla 27" required="">
+              <label for="Indirizzo">Indirizzo</label>
+              <input type="text" class="form-control" id="Indirizzo" placeholder="Via Blablabla 27" required="">
               <div class="invalid-feedback">
                 Inserisci un indirizzo valido.
               </div>
@@ -122,23 +122,23 @@
 
             <div class="row">
               <div class="col-md-5 mb-3">
-                <label for="country">Nazione</label>
-                <select class="custom-select d-block w-100" id="country" required="">
+                <label for="Nazione">Nazione</label>
+                <select class="custom-select d-block w-100" id="Nazione" required="">
                   <option value="">Svizzera</option>
                   <option>Italia</option>
                   <option>altro</option>
                 </select>
               </div>
               <div class="col-md-4 mb-3">
-                <label for="state">Città</label>
-                <input type="text" class="form-control" id="address" required="">
+                <label for="Citta">Città</label>
+                <input type="text" class="form-control" id="Citta" required="">
                 <div class="invalid-feedback">
                   Please provide a valid state.
                 </div>
               </div>
               <div class="col-md-3 mb-3">
-                <label for="zip">NAP</label>
-                <input type="text" class="form-control" id="zip" placeholder="" required="">
+                <label for="NAP">NAP</label>
+                <input type="text" class="form-control" id="NAP" placeholder="" required="">
                 <div class="invalid-feedback">
                   Zip code required.
                 </div>
@@ -148,60 +148,60 @@
 
             <h4 class="mb-3">Dati sportivi</h4>
             <div class="mb-3">
-              <label for="email">Sport (elencarne anche più di uno)</label>
-              <input type="email" class="form-control" id="sport" value="" required="">
+              <label for="sport">Sport (elencarne anche più di uno)</label>
+              <input class="form-control" id="sport" value="" required="">
             </div>
             <div class="mb-3">
-              <label for="email">Numero di allenamenti alla settimana</label>
-              <input type="email" class="form-control" id="nr" value="" required="">
+              <label for="Allenamenti_settimanali">Numero di allenamenti alla settimana</label>
+              <input class="form-control" id="Allenamenti_settimanali" value="" required="">
             </div>
             <div class="mb-3">
-              <label for="email">Età</label>
-              <input type="email" class="form-control" id="eta" value="" required="">
+              <label for="eta">Età</label>
+              <input class="form-control" id="eta" value="" required="">
             </div>
 
 
             <div class="d-block my-3">
               <label>Attrezzatura che possiedi</label>
               <div class="form-check">
-                <input class="form-check-input" type="checkbox" value="" id="orologio">
-                <label class="form-check-label" for="orologio">Orologio GPS</label>
+                <input class="form-check-input" type="checkbox" value="" id="orologio_GPS">
+                <label class="form-check-label" for="orologio_GPS">Orologio GPS</label>
               </div>
               <div class="form-check">
-                <input class="form-check-input" type="checkbox" value="" id="fascia">
-                <label class="form-check-label" for="debit">Fascia cardio</label>
+                <input class="form-check-input" type="checkbox" value="" id="fascia_cardio">
+                <label class="form-check-label" for="fascia_cardio">Fascia cardio</label>
               </div>
               <div class="form-check">
                 <input class="form-check-input" type="checkbox" value="" id="bastoni">
-                <label class="form-check-label" for="debit">Bastoni montagna</label>
+                <label class="form-check-label" for="bastoni">Bastoni montagna</label>
               </div>
               <div class="form-check">
                 <input class="form-check-input" type="checkbox" value="" id="tapis">
-                <label class="form-check-label" for="paypal">Tapis roulant</label>
+                <label class="form-check-label" for="tapis">Tapis roulant</label>
               </div>
               <div class="form-check">
                 <input class="form-check-input" type="checkbox" value="" id="rullo">
-                <label class="form-check-label" for="paypal">Rullo bici</label>
+                <label class="form-check-label" for="rullo">Rullo bici</label>
               </div>
               <div class="form-check">
                 <input class="form-check-input" type="checkbox" value="" id="bici_strada">
-                <label class="form-check-label" for="paypal">Bici da strada</label>
+                <label class="form-check-label" for="bici_strada">Bici da strada</label>
               </div>
               <div class="form-check">
                 <input class="form-check-input" type="checkbox" value="" id="mountain_bike">
-                <label class="form-check-label" for="paypal">Mountain bike</label>
+                <label class="form-check-label" for="mountain_bike">Mountain bike</label>
               </div>
               <div class="form-check">
                 <input class="form-check-input" type="checkbox" value="" id="pelli">
-                <label class="form-check-label" for="paypal">Materiale pelli di foca</label>
+                <label class="form-check-label" for="pelli">Materiale pelli di foca</label>
               </div>
               <div class="form-check">
                 <input class="form-check-input" type="checkbox" value="" id="ciaspole">
-                <label class="form-check-label" for="paypal">Ciaspole</label>
+                <label class="form-check-label" for="ciaspole">Ciaspole</label>
               </div>
               <div class="form-check">
                 <input class="form-check-input" type="checkbox" value="" id="fondo">
-                <label class="form-check-label" for="paypal">Materiale sci di fondo</label>
+                <label class="form-check-label" for="fondo">Materiale sci di fondo</label>
               </div>
             </div>
 
@@ -210,7 +210,7 @@
               <textarea class="form-control" id="osservazioni" rows="3"></textarea>
             </div>
 
-            <button class="mb-4 btn btn-primary btn-lg btn-block buttonPricing" type="submit">Invia</button>
+            <button id="submission" class="mb-4 btn btn-primary btn-lg btn-block buttonPricing" type="submit">Invia</button>
           </form>
         </div>
       </div>
@@ -227,7 +227,7 @@
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
+    <script src="form_script.js" type="application/javascript"></script>
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery-slim.min.js"><\/script>')</script>
   </body>
 </html>
