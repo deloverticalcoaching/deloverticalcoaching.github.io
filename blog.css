@@ -2,12 +2,13 @@
 
 .jumbo{
   color: white;
-  background-image: url("img/jumbo_img.JPG");
+  background-image: url("img/team.JPG");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   height: 33vh;
 }
+
 
 #logo{
   width: 60%;
