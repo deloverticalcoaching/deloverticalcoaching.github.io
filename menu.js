@@ -50,7 +50,7 @@ window.onload = function (){
                     <!--            </span>-->
                     <!--          </button>-->
                     <a class="p-2 text-muted" href="pricings.html">Allenamenti personalizzati</a>
-                    <a class="p-2 text-muted" href="team.html">Elite Team</a>
+                    <a class="p-2 text-muted" href="team.html">Élite Team</a>
                     <a class="p-2 text-muted" href="societa.html">Società sportiva</a>
                     <a class="p-2 text-muted" href="shop.html">Shop</a>
                     <a class="p-2 text-muted" href="eventi.html">Eventi</a>
