@@ -1,4 +1,5 @@
 /* stylelint-disable selector-list-comma-newline-after */
+html, body {width: auto!important; overflow-x: hidden!important}
 
 .jumbo{
   color: white;
