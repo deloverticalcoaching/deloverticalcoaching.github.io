@@ -35,28 +35,61 @@ window.onload = function (){
                     </div>
                     <div class="col-3 d-flex justify-content-end align-items-center">
                         <!--            <a class="btn btn-sm btn-outline-secondary" href="#">Accedi</a>-->
-                        <a href="https://www.instagram.com/delo_vertical_coaching/" target="_blank"> <i class="fa fa-instagram" aria-hidden="true"></i></a>
+                        <a class="d-none d-md-block" href="https://www.instagram.com/delo_vertical_coaching/" target="_blank"> <i class="fa fa-instagram" aria-hidden="true"></i></a>
+                            <button class="navbar-toggler d-md-none" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                                <span class="navbar-toggler-icon">
+                                  <i class="fa fa-bars" style="color:#53a32b; font-size:28px;"></i>
+                                </span>
+                              </button>
                         <!--              <a href="https://www.linkedin.com/in/roberto-delorenzi-91b766207" target="_blank"> <i class="fa fa-linkedin" aria-hidden="true"></i></a>-->
                     </div>
                 </div>
             </header>
         
-            <div class="nav-scroller py-1 mb-2">
-                <nav class="nav d-flex navbar-expand-md justify-content-between">
-                    <!-- Toggler/collapsibe Button -->
-                    <!--          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">-->
-                    <!--            <span class="navbar-toggler-icon">-->
-                    <!--              <i class="fa fa-bars" style="color:#53a32b; font-size:28px;"></i>-->
-                    <!--            </span>-->
-                    <!--          </button>-->
-                    <a class="p-2 text-muted" href="pricings.html">Allenamenti personalizzati</a>
-                    <a class="p-2 text-muted" href="team.html">Élite Team</a>
-                    <a class="p-2 text-muted" href="societa.html">Società sportiva</a>
-                    <a class="p-2 text-muted" href="shop.html">Shop</a>
-                    <a class="p-2 text-muted" href="eventi.html">Eventi</a>
-                    <a class="p-2 text-muted" href="contatti.html">Contatti</a>
-                </nav>
-            </div>`;
+<!--            <div class="nav-scroller py-1 mb-2">-->
+<!--                <nav class="nav d-flex navbar-expand-md justify-content-between">-->
+<!--                    &lt;!&ndash; Toggler/collapsibe Button &ndash;&gt;-->
+<!--                    &lt;!&ndash;          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">&ndash;&gt;-->
+<!--                    &lt;!&ndash;            <span class="navbar-toggler-icon">&ndash;&gt;-->
+<!--                    &lt;!&ndash;              <i class="fa fa-bars" style="color:#53a32b; font-size:28px;"></i>&ndash;&gt;-->
+<!--                    &lt;!&ndash;            </span>&ndash;&gt;-->
+<!--                    &lt;!&ndash;          </button>&ndash;&gt;-->
+<!--                    <a class="p-2 text-muted" href="pricings.html">Allenamenti personalizzati</a>-->
+<!--                    <a class="p-2 text-muted" href="team.html">Élite Team</a>-->
+<!--                    <a class="p-2 text-muted" href="societa.html">Società sportiva</a>-->
+<!--                    <a class="p-2 text-muted" href="shop.html">Shop</a>-->
+<!--                    <a class="p-2 text-muted" href="eventi.html">Eventi</a>-->
+<!--                    <a class="p-2 text-muted" href="contatti.html">Contatti</a>-->
+<!--                </nav>-->
+<!--            </div>-->
+            
+            <nav class="navbar nav d-flex navbar-expand-md justify-content-between">
+              <a class="d-md-none" href="https://www.instagram.com/delo_vertical_coaching/" target="_blank"> <i class="fa fa-instagram" aria-hidden="true"></i></a>
+                <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                    <ul class="navbar-nav nav-fill w-100">
+                        <li class="nav-item">
+                            <a class="p-2 text-muted nav-link" href="pricings.html">Allenamenti personalizzati</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="p-2 text-muted nav-link" href="team.html">Élite Team</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="p-2 text-muted nav-link" href="societa.html">Società sportiva</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="p-2 text-muted nav-link" href="shop.html">Shop</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="p-2 text-muted nav-link" href="eventi.html">Eventi</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="p-2 text-muted nav-link" href="contatti.html">Contatti</a>
+                        </li>
+                    </ul>
+                </div> 
+            </nav>
+
+`;
 
     var as = document.getElementsByTagName("a");
     for (var i = 0; i < as.length; i++){
